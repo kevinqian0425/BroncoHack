@@ -1,34 +1,15 @@
-img {
-	display: block;
-	height: 100px;
-	width: 300px;
-	margin: auto;
-}
-
-p {
-	text-align: center;
-	font-family: Garamond, serif;
-	font-size: 18px;
-}
-
-div {
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 50px;
-	width: 120px;
-	margin: auto;
+#r1{
 	text-align: center;
 }
-
-a {
-	text-decoration: none;
-	color: #3D59AB;
-	font-family: Verdana, sans-serif;
+#r2{
+	text-align: center;
 }
-
-span {
-	font-weight: bold;
-	font-size: 18px;
-	color: #ffffff;
+#r3{
+	text-align: center;
+}
+#r4{
+	text-align: center;
+}
+#r5{
+	text-align: center;
 }

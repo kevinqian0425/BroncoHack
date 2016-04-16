@@ -13,6 +13,10 @@ ul {
     padding: 0;
 }
 
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* food.html */
 
 #r1{
@@ -52,7 +56,7 @@ ul {
     float: left;
     top: 225px;
     left: 260px;
-    
+
 }
 #r5{
 	text-align: center;

@@ -1,24 +1,31 @@
-<<<<<<< HEAD
+
 #r1{
 	text-align: center;
 }
 #r2{
 	text-align: center;
-=======
-/*Food.html*/
-img {
-	display: block;
-	height: 100px;
-	width: 300px;
-	margin: auto;
->>>>>>> origin/master
 }
+/*
 #r3{
-	text-align: center;
+/*	text-align: center;*/
+    position: fixed;
+    float: left;
+    top: 225px;
+    left: 50px;
 }
+/*
 #r4{
-	text-align: center;
+/*	text-align: center;*/
+    position: fixed;
+    float: left;
+    top: 225px;
+    left: 260px;
+    
 }
+/*
 #r5{
 	text-align: center;
+    position: fixed;
+    top: 225px;
+    left: 500px;
 }

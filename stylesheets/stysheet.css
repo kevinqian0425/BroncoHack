@@ -1,3 +1,19 @@
+/* index.html */
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* food.html */
 
 #r1{
 	text-align: center;
@@ -7,25 +23,21 @@
 }
 /*
 #r3{
-/*	text-align: center;*/
     position: fixed;
     float: left;
     top: 225px;
     left: 50px;
 }
-/*
 #r4{
-/*	text-align: center;*/
     position: fixed;
     float: left;
     top: 225px;
     left: 260px;
     
 }
-/*
 #r5{
 	text-align: center;
     position: fixed;
     top: 225px;
     left: 500px;
-}
+*/

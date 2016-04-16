@@ -21,13 +21,32 @@ ul {
 #r2{
 	text-align: center;
 }
-/*
+
 #r3{
     position: fixed;
-    float: left;
-    top: 225px;
-    left: 50px;
+    float: top;
+    top: 75vh;
+    
 }
+#c1{
+    position: fixed;
+    float: left;
+    left: 18vw;
+}
+
+#c2{
+    position: fixed;
+    float: left;
+    left: 46.5vw;
+}
+
+#c3{
+    position: fixed;
+    float: left;
+    left: 75vw;
+}
+
+/*
 #r4{
     position: fixed;
     float: left;

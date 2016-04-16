@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 #r1{
 	text-align: center;
 }
 #r2{
 	text-align: center;
+=======
+/*Food.html*/
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+>>>>>>> origin/master
 }
 #r3{
 	text-align: center;

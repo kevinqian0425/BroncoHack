@@ -510,6 +510,7 @@ a:active {text-decoration:underline;}
     top: 10vw;
     padding-bottom: 500px;
 }
+
 #c13{
     color: black;
     width: 15vw;
@@ -519,7 +520,7 @@ a:active {text-decoration:underline;}
     padding-left: 170px;
     float: left;
     left: 5vw;
-    top: 22vw;
+    top: 22vw;  
 }
 
 #im1{

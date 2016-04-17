@@ -75,7 +75,7 @@ p {
 }
 
 #food{
-  background-image:url('img/beef.jpg');
+  background-image:url('../img/beef.jpg');
 }
 
 

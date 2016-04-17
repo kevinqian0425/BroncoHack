@@ -214,23 +214,25 @@ p {
     position: fixed;
     float: top;
     top: 50vw;
+    padding-bottom: 500px;
 }
 
 #c10{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpt1/v/t34.0-12/13022205_1232944883385186_1271555524_n.png?oh=90dc5321f887bbd3d7ade1113fdc0250&oe=5715DDA6");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlf1/v/l/t34.0-12/13020468_1232957816717226_1527009884_n.jpg?oh=533a19cba224fcafd2be286c5b27bc66&oe=57160565");
     background-repeat: no-repeat;
     color: white;
     width: 31vw;
     height: 25vw;
     border-radius: 25px;
     position: fixed;
+    margin-bottom: 300px;
     padding-left: 95px;
     float: left;
     left: 2.5vw;
 }
 
 #c11{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t34.0-12/12992085_1232955730050768_363826390_n.jpg?oh=19e9b439b5526ef54c8f79723f1b9872&oe=5715CA4B");
     background-repeat: no-repeat;
     color: white;
     width: 30vw;

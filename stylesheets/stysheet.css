@@ -13,6 +13,19 @@ ul {
     padding: 0;
 }
 
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+ color: white;
+}
+
 /* food.html */
 
 #r1{
@@ -25,7 +38,12 @@ ul {
 #r3{
     position: fixed;
     float: top;
+<<<<<<< HEAD
     top: 50vh;
+=======
+    top: 75vh;
+
+>>>>>>> origin/master
 }
 #c1{
     width: 35vw;
@@ -58,8 +76,14 @@ ul {
 #r4{
     position: fixed;
     float: left;
+<<<<<<< HEAD
     top: 12vh;
     left: 1vw;
+=======
+    top: 225px;
+    left: 260px;
+
+>>>>>>> origin/master
 }
 
 #pic{

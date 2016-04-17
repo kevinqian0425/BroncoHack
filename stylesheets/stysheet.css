@@ -1,6 +1,6 @@
-/**************/
+/******************************************************************/
 /* index.html */
-/**************/
+/******************************************************************/
 
 .title {
     display: block;
@@ -74,17 +74,21 @@ p {
 }
 
 #food{
+<<<<<<< HEAD
   background-image: url('../img/beef.jpg');
   background-position: 0% 30%;
   background-size: cover;
   background-repeat: no-repeat;
   color:white;
+=======
+  background-image:url('../img/beef.jpg');
+>>>>>>> origin/master
 }
 
 
-/*************/
+/******************************************************/
 /* food.html */
-/*************/
+/******************************************************/
 
 #r2{
     text-align: center;
@@ -93,7 +97,7 @@ p {
 #r3{
     position: fixed;
     float: top;
-    top: 56vh;
+    top: 56vw;
 }
 
 #c1{
@@ -130,7 +134,7 @@ p {
 }
 
 #picCol {
-    height: 40vh;
+    height: 40vw;
 }
 
 #r4{
@@ -145,67 +149,113 @@ p {
 }
 
 #pic{
+    position:fixed;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    border-radius: 25px;
 }
 
 #r6{
+    top:30vh;
     text-align: center;
 }
 
 #r7{
     position: fixed;
     float: top;
-    top: 65vh;
+    top: 20vw;
 }
 
-/**********/
+/*****************************************************/
 /* Fasion */
-/**********/
+/*****************************************************/
 
 #c4{
     background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13014947_1232924560053885_2040984115_n.png?oh=b77c10bc88383e3481d10ae5d4213f72&oe=5716033A");
+    background-repeat: no-repeat;
     color: white;
-    width: 30vw;
+    width: 31vw;
     height: 25vw;
     border-radius: 25px;
     position: fixed;
+    padding-left: 95px;
     float: left;
-    left: 5vw;
+    left: 2.5vw;
 }
-
-
-
-/*#accpic{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
-}*/
-
-
 
 #c5{
     background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-repeat: no-repeat;
     color: white;
     width: 30vw;
     height: 25vw;
-    position: fixed;
+    position: relative;
+    padding-left: 87px;
     float: left;
-<<<<<<< HEAD
     left: 37.5vw;
-
-=======
-    left: 36.5vw;
     border-radius: 25px;
-
->>>>>>> origin/master
 }
 
 #c6{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlf1/v/t34.0-12/13045644_1232931526719855_922740816_n.png?oh=69d76d1df87cb810c6309d985eac839a&oe=5715F09D");
+    background-repeat: no-repeat;
     color: white;
     width: 30vw;
     height: 25vw;
     border-radius: 25px;
     position: fixed;
+    padding-left: 95px;
+    float: left;
+    left: 68vw;
+}
+
+#r10{
+    position: fixed;
+    float: top;
+    top: 50vw;
+}
+
+#c10{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpt1/v/t34.0-12/13022205_1232944883385186_1271555524_n.png?oh=90dc5321f887bbd3d7ade1113fdc0250&oe=5715DDA6");
+    background-repeat: no-repeat;
+    color: white;
+    width: 31vw;
+    height: 25vw;
+    border-radius: 25px;
+    position: fixed;
+    padding-left: 95px;
+    float: left;
+    left: 2.5vw;
+}
+
+#c11{
+    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    width: 30vw;
+    height: 25vw;
+    position: relative;
+    padding-left: 87px;
+    float: left;
+    left: 37.5vw;
+    border-radius: 25px;
+<<<<<<< HEAD
+
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+}
+
+#c12{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t34.0-12/13020122_1232948370051504_1672214541_n.png?oh=19801389c24451d1d5f4fa268f749257&oe=57160788");
+    background-repeat: no-repeat;
+    color: white;
+    width: 30vw;
+    height: 25vw;
+    border-radius: 25px;
+    position: fixed;
+    padding-left: 95px;
     float: left;
     left: 68vw;
 }

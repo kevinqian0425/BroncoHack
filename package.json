@@ -1,0 +1,22 @@
+{
+  "name": "smallbiz",
+  "version": "1.0.0",
+  "description": "Our web app to cross check the integrity of many companies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasvn/BroncoHack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasvn/BroncoHack/issues"
+  },
+  "homepage": "https://github.com/thomasvn/BroncoHack#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

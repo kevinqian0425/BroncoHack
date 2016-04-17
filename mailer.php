@@ -3,8 +3,41 @@
     // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
 
-    require 'PHPMailerAutoload.php';
+    require 'vendor/autoload.php';
 
+    ParseClient::initialize( $SR1cvwd4CVY9Lon9WOWJC6GuDzXySA9ew9mBcRZQ, $juBRcJf1TfO8iwWV5QN14g9nF5FOZusu0VygB7OG, $PjoqDQr3V1ZNtVefuA4xRaJtMfK1dZkM4qXNW0mb );
+    // Users of Parse Server will need to point ParseClient at their remote URL:
+    ParseClient::setServerURL('http://smallbizz.parseapp.com/');
+
+
+    // Signup
+    $user = new ParseUser();
+    $user->setUsername("foo");
+    $user->setPassword("Q2w#4!o)df");
+    try {
+        $user->signUp();
+    } catch (ParseException $ex) {
+        // error in $ex->getMessage();
+    }
+
+    // Login
+    try {
+        $user = ParseUser::logIn("foo", "Q2w#4!o)df");
+    } catch(ParseException $ex) {
+        // error in $ex->getMessage();
+    }
+
+    // Current user
+    $user = ParseUser::getCurrentUser();
+
+
+
+
+
+
+
+
+    /*
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -53,4 +86,6 @@
         echo "There was a problem with your submission, please try again.";
     }
 
+
+    */
 ?>

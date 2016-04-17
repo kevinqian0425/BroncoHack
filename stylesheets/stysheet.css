@@ -17,6 +17,15 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+ color: white;
+}
+
 /* food.html */
 
 #r1{
@@ -30,7 +39,7 @@ p {
     position: fixed;
     float: top;
     top: 75vh;
-    
+
 }
 #c1{
     position: fixed;

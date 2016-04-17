@@ -340,7 +340,6 @@ p {
 /* Brand */
 /*****************************************************/
 
-<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -394,6 +393,7 @@ h3 {
 }
 .image:hover img{
   transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
   -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
 }
 .fa-heart-o:hover {
@@ -427,22 +427,24 @@ h3 {
   text-shadow: 1px 1px 2px rgba(214, 22, 80, 1);
   border-left:5px dotted #D61650;
 }
-.name {
+/*.name {
   width:100%;
   height:50px;
-  background:#4ABFB4;
-  opacity: 0.85;
+  background:white;
+  opacity: 0.7;
   filter: alpha(opacity=85); /* IE8 and Lower */
-  zoom: 1; /* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+  /*zoom: 1; /* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+  /*
   overflow:hidden;
   position:absolute;
-  bottom:0;
+  bottom:10%;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
   text-shadow: 1px 1px 2px rgba(51, 145, 135, 1);
   border-bottom:1px dotted #339187;
-}
+} */
+
 .media {
   width:100%;
   font-size:0.7em;
@@ -465,19 +467,37 @@ a:link, a:visited {color: #339187; text-decoration:none;font-weight:700;}
 a:hover {color: #D61650;text-decoration:none;}
 a:active {text-decoration:underline;}
 
+/* Pulse Animation for Firefox, Opera and Internet Explorer 10 */
+@keyframes pulse {
+  from {
+    transform: scale(1.0);
+    opacity: 1.0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 1.0;
+  }
+}
 /* Pulse Animation for Google Chrome and Safari */
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale(1.0);
-    opacity: 0;
+    opacity: 1.0;
   }
-  to
-  {
+  50% {
+    -webkit-transform: scale(1.2);
+    opacity: 1.0;
+  }
+  to {
     -webkit-transform: scale(1.0);
-    opacity: 1;
+    opacity: 1.0;
   }
 }
-=======
+
 /*for clothes_fashion*/
 
 

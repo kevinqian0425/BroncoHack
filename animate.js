@@ -4,9 +4,7 @@ $('.lv').click(function() {
 		$(this).addClass('fa-heart').removeClass('fa-heart-o');
 		heart = true;
 	}
-
-  if (heart){
+  else {
 		$(this).removeClass('fa-heart').addClass('fa-heart-o');
 		heart = false;
-	}
-};
+	});

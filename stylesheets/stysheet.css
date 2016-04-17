@@ -125,7 +125,7 @@ p {
 #r7{
     position: fixed;
     float: top;
-    top: 56vh;
+    top: 65vh;
 }
 
 #c4{
@@ -139,15 +139,28 @@ p {
     left: 5vw;
 }
 
-#c5{
-    width: 25vw;
-    height: 38vw;
-    background-color:  rgb(255,182,225);
-    border: 7.5px solid pink;
-    border-radius: 25px;
+
+/*
+#accpic{
+    top: 65vh;
+    width: 5vw;
+    height: 5vw;
     position: fixed;
     float: left;
     left: 37.5vw;
+}
+*/
+
+
+#c5{
+    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    color: white;
+    width: 30vw;
+    height: 25vw;
+    position: fixed;
+    float: left;
+    left: 37.5vw;
+   
 }
 
 #c6{
@@ -178,6 +191,8 @@ p {
     height: 37vw;
 
 }
+
+
 
 /*
 #r5{

@@ -94,9 +94,10 @@ p {
     left: 70vw;
 }
 
-#c4 {
+#picCol {
     height: 40vh;
 }
+
 #r4{
 /*
     position: fixed;
@@ -113,10 +114,6 @@ p {
     height: 100%;
 }
 
-
-
-
-
 #r6{
     text-align: center;
 }
@@ -126,6 +123,10 @@ p {
     float: top;
     top: 65vh;
 }
+
+/**********/
+/* Fasion */
+/**********/
 
 #c4{
     width: 25vw;

@@ -24,13 +24,29 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#food {
-  margin-bottom: 0px;
+#welcome {
+  margin-bottom: 100px;
   background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
- color: white;
+  color: white;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+#bottom {
+  margin-top: 50px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
+  background-position: 0% 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 8%;
+  padding-bottom: 8%;
+
+}
+
+
 }
 
 /*************/
@@ -99,7 +115,7 @@ p {
     position: fixed; 
     width: 120vw;
     height: 37vw;
-  
+
 }
 
 /*

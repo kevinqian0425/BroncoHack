@@ -1,147 +1,41 @@
-<?php
+    <?
+    require 'vendor/autoload.php';
 
-ParseClient::initialize( $app_id, $rest_key, $master_key );
-// Users of Parse Server will need to point ParseClient at their remote URL:
-ParseClient::setServerURL('https://my-parse-server.com/parse');
+    ParseClient::initialize( $SR1cvwd4CVY9Lon9WOWJC6GuDzXySA9ew9mBcRZQ, $juBRcJf1TfO8iwWV5QN14g9nF5FOZusu0VygB7OG, $PjoqDQr3V1ZNtVefuA4xRaJtMfK1dZkM4qXNW0mb );
+    // Users of Parse Server will need to point ParseClient at their remote URL:
+    ParseClient::setServerURL('http://smallbizz.parseapp.com/');
 
-if(isset($_POST['email'])) {
- 
-     
- 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
- 
-    $email_to = "t21nguyen@scu.edu";
- 
-    $email_subject = "SmallBiz  |  New Business Request";
- 
-     
- 
-     
- 
-    function died($error) {
- 
-        // your error code can go here
- 
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
- 
-        echo "These errors appear below.<br /><br />";
- 
-        echo $error."<br /><br />";
- 
-        echo "Please go back and fix these errors.<br /><br />";
- 
-        die();
- 
+
+    use Parse\ParseObject;
+
+
+    // define variables and set to empty values
+    $name = $email = $message = "";
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = test_input($_POST["fullName"]);
+        $email = test_input($_POST["email"]);
+        $message = test_input($_POST["message"]);
     }
- 
-     
- 
-    // validation expected data exists
- 
-    if(!isset($_POST['name']) ||
- 
-        !isset($_POST['email']) ||
- 
-        !isset($_POST['message']) ) {
- 
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
- 
+
+    function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
     }
- 
-     
- 
-    $name = $_POST['name']; // required
- 
-    $email_from = $_POST['email']; // required
- 
-    $message = $_POST['message']; // required
- 
-     
- 
-    $error_message = "";
- 
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
- 
-  if(!preg_match($email_exp,$email_from)) {
- 
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
- 
-  }
- 
-    $string_exp = "/^[A-Za-z .'-]+$/";
- 
-  if(!preg_match($string_exp,$first_name)) {
- 
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(!preg_match($string_exp,$last_name)) {
- 
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(strlen($message) < 2) {
- 
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
- 
-  }
- 
-  if(strlen($error_message) > 0) {
- 
-    died($error_message);
- 
-  }
- 
-    $email_message = "Form details below.\n\n";
- 
-     
- 
-    function clean_string($string) {
- 
-      $bad = array("content-type","bcc:","to:","cc:","href");
- 
-      return str_replace($bad,"",$string);
- 
-    }
- 
-     
- 
-    $email_message .= "Name: ".clean_string($name)."\n";
- 
-    $email_message .= "Email: ".clean_string($email_from)."\n";
- 
-    $email_message .= "Message: ".clean_string($message)."\n";
- 
-     
- 
-     
- 
-// create email headers
- 
-$headers = 'From: '.$email_from."\r\n".
- 
-'Reply-To: '.$email_from."\r\n" .
- 
-'X-Mailer: PHP/' . phpversion();
- 
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
-?>
- 
- 
- 
-<!-- include your own success html here -->
- 
- 
- 
-Thank you for contacting us. We will be in touch with you very soon.
- 
- 
- 
-<?php
- 
-}
- 
-?>
+
+
+    $object = ParseObject::create("TestObject");
+    $objectId = $object->getObjectId();
+    $php = $object->get("elephant");
+
+    // Set values:
+    $object->set("Name", $fullName);
+    $object->set("Email Adress", $email);
+    $object->set("Message", $message);
+
+    // Save:
+    $object->save();
+
+    ?>

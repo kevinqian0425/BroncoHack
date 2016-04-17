@@ -9,26 +9,37 @@
     // Users of Parse Server will need to point ParseClient at their remote URL:
     ParseClient::setServerURL('http://smallbizz.parseapp.com/');
 
+    use Parse\ParseObject;
 
-    // Signup
-    $user = new ParseUser();
-    $user->setUsername("foo");
-    $user->setPassword("Q2w#4!o)df");
-    try {
-        $user->signUp();
-    } catch (ParseException $ex) {
-        // error in $ex->getMessage();
-    }
 
-    // Login
-    try {
-        $user = ParseUser::logIn("foo", "Q2w#4!o)df");
-    } catch(ParseException $ex) {
-        // error in $ex->getMessage();
-    }
+     // define variables and set to empty values
+     $name = $email = $message = "";
 
-    // Current user
-    $user = ParseUser::getCurrentUser();
+     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = test_input($_POST["fullName"]);
+        $email = test_input($_POST["email"]);
+        $message = test_input($_POST["message"]);
+     }
+
+     function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+     }
+
+
+
+    $object = ParseObject::create("TestObject");
+    $objectId = $object->getObjectId();
+    $php = $object->get("elephant");
+
+    // Set values:
+    $object->set("Name", "php");
+    $object->set("today", new DateTime());
+
+    // Save:
+    $object->save();
 
 
 

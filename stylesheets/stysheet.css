@@ -47,15 +47,23 @@ p {
 }
 
 #welcome {
-  margin-bottom: 35px;
-  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
-  background-position: 0% 25%;
+  margin-bottom: 15px;
+  background-image: url('../img/small business.jpg');
+  background-position: 8% 20%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
-  padding-top: 12%;
-  padding-bottom: 12%;
-  border-radius: 10px;
+  color:white;
+  padding-top: 9%;
+  padding-bottom: 9%;
+  opacity:0.6;
+  background-color: #FFFFFF;
+  box-shadow: #e0e6e8;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 
 #welcometext {
@@ -74,17 +82,17 @@ p {
 }
 
 #food{
-<<<<<<< HEAD
   background-image: url('../img/beef.jpg');
   background-position: 0% 30%;
   background-size: cover;
   background-repeat: no-repeat;
   color:white;
-=======
-  background-image:url('../img/beef.jpg');
->>>>>>> origin/master
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
-
 
 /******************************************************/
 /* food.html */

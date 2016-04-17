@@ -33,6 +33,7 @@ p {
 
 /* food.html */
 
+
 #r1{
 	text-align: center;
 }
@@ -43,35 +44,37 @@ p {
 #r3{
     position: fixed;
     float: top;
-<<<<<<< HEAD
-    top: 50vh;
-=======
-    top: 75vh;
-
->>>>>>> origin/master
+    top: 56vh;
 }
+
 #c1{
-    width: 35vw;
-    height: 100vw;
+    width: 25vw;
+    height: 38vw;
     background-color: skyblue;
+    border: 7.5px solid lightblue;
+    border-radius: 25px;
     position: fixed;
     float: left;
-    left: 0vw;
+    left: 5vw;
 }
 
 #c2{
-    width: 35vw;
-    height: 100vw;
-    background-color:  lightpink;
+    width: 25vw;
+    height: 38vw;
+    background-color:  rgb(255,182,225);
+    border: 7.5px solid pink;
+    border-radius: 25px;
     position: fixed;
     float: left;
-    left: 35vw;
+    left: 37.5vw;
 }
 
 #c3{
-    width: 35vw;
-    height: 100vw;
-    background-color: rgb(160, 255, 170);
+    width: 25vw;
+    height: 38vw;
+    background-color: rgb(160, 255, 175);
+    border: 7.5px solid lightgreen;
+    border-radius: 25px;
     position: fixed;
     float: left;
     left: 70vw;
@@ -81,17 +84,15 @@ p {
 #r4{
     position: fixed;
     float: left;
-<<<<<<< HEAD
-    top: 12vh;
-    left: 1vw;
-=======
     top: 225px;
     left: 260px;
+    top: 12vw;
+    left: 1vw;
 
->>>>>>> origin/master
 }
 
 #pic{
+    position: fixed; 
     width: 120vw;
     height: 37vw;
   

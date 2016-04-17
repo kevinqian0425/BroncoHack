@@ -520,14 +520,14 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 170px;
     float: left;
-    left: 14vw;
+    left: 12vw;
     top: 10vw;  
 }
 
 #im1{
     position:fixed;
     top: 10vw;
-    left: 10vw;
+    left: 7vw;
     width:15vw;
     height: 20vw;
     border-radius: 25px;
@@ -544,7 +544,7 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 160px;
     float: left;
-    left: 48vw;
+    left: 45vw;
     border-radius: 25px;
     top: 10vw;
 }
@@ -552,8 +552,8 @@ a:active {text-decoration:underline;}
 #im2{
     position:fixed;
     top: 10vw;
-    left: 43vw;
-    width: 15vw;
+    left: 42vw;
+    width: 12vw;
     height: 20vw;
     border-radius: 25px;
 }
@@ -574,9 +574,9 @@ a:active {text-decoration:underline;}
 #im3{
     position:fixed;
     top: 9vw;
-    left: 73.75vw;
-    width: 15vw;
-    height: 30vw;
+    left: 74vw;
+    width: 12vw;
+    height: 22vw;
     border-radius: 25px;
 }
 
@@ -596,14 +596,14 @@ a:active {text-decoration:underline;}
     margin-bottom: 300px;
     padding-left: 170px;
     float: left;
-    left: 14vw;
+    left: 12vw;
     top: 35vw;
 }
 
 #im4{
     position:fixed;
     top: 34vw;
-    left: 10vw;
+    left: 7vw;
     width:15vw;
     height: 30vw;
     border-radius: 25px;
@@ -616,7 +616,7 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 170px;
     float: left;
-    left: 47vw;
+    left: 45vw;
     top: 35vw;
     border-radius: 25px;
 }
@@ -624,7 +624,7 @@ a:active {text-decoration:underline;}
 #im5{
    position:fixed;
     top: 34vw;
-    left: 43vw;
+    left: 41vw;
     width: 15vw;
     height: 30vw;
     border-radius: 25px;
@@ -638,16 +638,16 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 190px;
     float: left;
-    left: 69vw;
-    top: 43vw;
+    left: 76vw;
+    top: 35vw;
 }
 
 #im6{
     position:fixed;
-    top: 28vw;
+    top: 35vw;
     left: 73.75vw;
-    width: 15vw;
-    height: vw;
+    width: 13vw;
+    height: 25vw;
     border-radius: 25px;
 }
 
@@ -681,29 +681,30 @@ a:active {text-decoration:underline;}
 #name{
     color:black;
     position:fixed;
-    left: 63.75vw;
+    left: 58vw;
+    font-size: 4.7vw;
 }
 
 #name2{
     color:black;
     position:fixed;
-    font-size: 150%;
-    top: 9.25vw;
+    font-size: 2vw;
+    top: 11vw;
     left:67.15vw;
 }
 
 #name3{
     color:black;
     position:fixed;
-    top: 15vw;
-    left:67.15vw;
+    top: 17vw;
+    left:51vw;
 }
 
 #name4{
     color:black;
     position:fixed;
-    top: 20vw;
-    left:67.15vw;
+    top: 23vw;
+    left:59vw;
 }
 
 #cc{

@@ -6,6 +6,11 @@
     margin-right: auto;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+      }
+
 ul {
     font-family: 'Roboto Condensed', sans-serif;
     list-style-type: none;
@@ -17,7 +22,7 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.jumbotron {
+#food {
   margin-bottom: 0px;
   background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
   background-position: 0% 25%;

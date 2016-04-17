@@ -37,7 +37,7 @@ p {
 
 #bottom {
   margin-top: 50px;
-  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
+  background-color: skyblue;
   background-position: 0% 75%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ p {
 }
 
 #pic{
-    position: fixed; 
+    position: fixed;
     width: 120vw;
     height: 37vw;
 

@@ -47,8 +47,6 @@ p {
 }
 
 
-}
-
 /*************/
 /* food.html */
 /*************/
@@ -96,22 +94,23 @@ p {
     left: 70vw;
 }
 
-
+#c4 {
+    height: 40vh;
+}
 #r4{
+/*
     position: fixed;
     float: left;
     top: 225px;
     left: 260px;
     top: 12vw;
     left: 1vw;
-
+*/
 }
 
 #pic{
-    position: fixed;
-    width: 120vw;
-    height: 37vw;
-
+    width: 100%;
+    height: 100%;
 }
 
 

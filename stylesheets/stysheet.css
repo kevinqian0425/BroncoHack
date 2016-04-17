@@ -14,8 +14,8 @@
       }
 
 .container-fluid .jumbotron{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 330px;
+    padding-bottom: 2%;
     padding-right: 48%;
     text-align: center;
 }
@@ -52,7 +52,7 @@ p {
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   padding-top: 12%;
   padding-bottom: 12%;
   border-radius: 10px;
@@ -64,18 +64,21 @@ p {
 }
 
 #bottom {
-  margin-top: 50px;
-  background-color: skyblue;
-  background-position: 0% 75%;
+  margin-top: 10px;
+  background-color: #2C3539;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
 }
 
 #food{
-  background-image:url('img/beef.jpg');
+  background-image: url('../img/beef.jpg');
+  background-position: 0% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
 }
 
 
@@ -192,7 +195,7 @@ p {
 =======
     left: 36.5vw;
     border-radius: 25px;
-   
+
 >>>>>>> origin/master
 }
 

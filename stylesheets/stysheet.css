@@ -515,20 +515,21 @@ a:active {text-decoration:underline;}
     color: black;
     width: 15vw;
     height: 15vw;
+    font-size: 50%;
     border-radius: 25px;
     position: fixed;
     padding-left: 170px;
     float: left;
-    left: 5vw;
-    top: 22vw;  
+    left: 13vw;
+    top: 10vw;  
 }
 
 #im1{
     position:fixed;
-    top: 7vw;
+    top: 10vw;
     left: 10vw;
     width:15vw;
-    height: 15vw;
+    height: 20vw;
     border-radius: 25px;
 }
 
@@ -543,17 +544,17 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 160px;
     float: left;
-    left: 40vw;
+    left: 47vw;
     border-radius: 25px;
-    top: 22vw;
+    top: 10vw;
 }
 
 #im2{
     position:fixed;
-    top: 7vw;
+    top: 10vw;
     left: 43vw;
     width: 15vw;
-    height: 15vw;
+    height: 20vw;
     border-radius: 25px;
 }
 
@@ -566,16 +567,16 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 190px;
     float: left;
-    left: 69vw;
-    top: 22vw;
+    left: 74vw;
+    top: 10vw;
 }
 
 #im3{
     position:fixed;
-    top: 7vw;
+    top: 9vw;
     left: 73.75vw;
     width: 15vw;
-    height: 15vw;
+    height: 30vw;
     border-radius: 25px;
 }
 
@@ -595,16 +596,16 @@ a:active {text-decoration:underline;}
     margin-bottom: 300px;
     padding-left: 170px;
     float: left;
-    left: 5vw;
-    top: 43vw;
+    left: 12vw;
+    top: 35vw;
 }
 
 #im4{
     position:fixed;
-    top: 28vw;
+    top: 34vw;
     left: 10vw;
     width:15vw;
-    height: 15vw;
+    height: 30vw;
     border-radius: 25px;
 }
 

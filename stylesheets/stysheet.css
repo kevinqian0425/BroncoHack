@@ -161,10 +161,10 @@ p {
 /**********/
 
 #c4{
-    width: 25vw;
-    height: 38vw;
-    background-color: skyblue;
-    border: 7.5px solid lightblue;
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13014947_1232924560053885_2040984115_n.png?oh=b77c10bc88383e3481d10ae5d4213f72&oe=5716033A");
+    color: white;
+    width: 30vw;
+    height: 25vw;
     border-radius: 25px;
     position: fixed;
     float: left;
@@ -172,16 +172,11 @@ p {
 }
 
 
-/*
-#accpic{
-    top: 65vh;
-    width: 5vw;
-    height: 5vw;
-    position: fixed;
-    float: left;
-    left: 37.5vw;
-}
-*/
+
+/*#accpic{
+    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+}*/
+
 
 
 #c5{
@@ -191,19 +186,25 @@ p {
     height: 25vw;
     position: fixed;
     float: left;
+<<<<<<< HEAD
     left: 37.5vw;
 
+=======
+    left: 36.5vw;
+    border-radius: 25px;
+   
+>>>>>>> origin/master
 }
 
 #c6{
-    width: 25vw;
-    height: 38vw;
-    background-color: rgb(160, 255, 195);
-    border: 7.5px solid lightgreen;
+    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    color: white;
+    width: 30vw;
+    height: 25vw;
     border-radius: 25px;
     position: fixed;
     float: left;
-    left: 70vw;
+    left: 68vw;
 }
 
 

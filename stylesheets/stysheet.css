@@ -131,18 +131,22 @@ p {
 }
 
 #pic{
+    position:fixed;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    border-radius: 25px;
 }
 
 #r6{
+    top:30vh;
     text-align: center;
 }
 
 #r7{
     position: fixed;
     float: top;
-    top: 65vh;
+    top: 20vh;
 }
 
 /**********/
@@ -152,41 +156,36 @@ p {
 #c4{
     background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13014947_1232924560053885_2040984115_n.png?oh=b77c10bc88383e3481d10ae5d4213f72&oe=5716033A");
     color: white;
-    width: 30vw;
+    width: 31vw;
     height: 25vw;
     border-radius: 25px;
     position: fixed;
+    padding-left: 95px;
     float: left;
-    left: 5vw;
+    left: 2.5vw;
 }
-
-
-
-/*#accpic{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
-}*/
-
-
 
 #c5{
     background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
     color: white;
     width: 30vw;
     height: 25vw;
-    position: fixed;
+    position: relative;
+    padding-left: 87px;
     float: left;
-    left: 36.5vw;
+    left: 37.5vw;
     border-radius: 25px;
    
 }
 
 #c6{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlf1/v/t34.0-12/13045644_1232931526719855_922740816_n.png?oh=69d76d1df87cb810c6309d985eac839a&oe=5715F09D");
     color: white;
     width: 30vw;
     height: 25vw;
     border-radius: 25px;
     position: fixed;
+    padding-left: 95px;
     float: left;
     left: 68vw;
 }

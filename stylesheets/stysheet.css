@@ -300,7 +300,112 @@ p {
 
 }
 
+/*for clothes_fashion*/
 
+#c13{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t34.0-12/13023425_1232965263383148_1103458752_n.jpg?oh=6348e7e0207d7aee9e5b3572801a2e02&oe=5714FB8F");
+    background-repeat: no-repeat;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    border-radius: 25px;
+    position: fixed;
+    padding-left: 170px;
+    float: left;
+    left: 6.25vw;
+}
+
+#c14{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtp1/v/t34.0-12/13020216_1232960230050318_1169718435_n.jpg?oh=fcbc93d48439c7c9c321c1464b94dfd6&oe=571617D0");
+    background-repeat: no-repeat;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    position: relative;
+    padding-left: 160px;
+    float: left;
+    left: 37.75vw;
+    border-radius: 25px;
+}
+
+#c15{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtl1/v/l/t34.0-12/13023356_1232980226714985_1572018497_n.jpg?oh=9ea557b1b81a7e77433ab6f4ce8d6d61&oe=5715CB48");
+    background-repeat: no-repeat;
+    font-size: 500%;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    border-radius: 25px;
+    position: fixed;
+    padding-left: 190px;
+    float: left;
+    left: 68vw;
+}
+
+#r11{
+    position: fixed;
+    float: top;
+    top: 30vw;
+    padding-bottom: 500px;
+}
+
+#c16{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xaf1/v/t34.0-12/12992927_1232968690049472_929053936_n.jpg?oh=f6097b241933a26b30522ff20c0e6ccb&oe=5715C404");
+    background-repeat: no-repeat;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    border-radius: 25px;
+    position: fixed;
+    margin-bottom: 300px;
+    padding-left: 170px;
+    float: left;
+    left: 6.25vw;
+}
+
+#c17{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xap1/v/t34.0-12/13045551_1232977573381917_1745913319_n.jpg?oh=73528f862d5975d787acc07378fa3047&oe=5716042B");
+    background-repeat: no-repeat;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    position: relative;
+    padding-left: 170px;
+    float: left;
+    left: 37.75vw;
+    border-radius: 25px;
+}
+
+#c18{
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtf1/v/t34.0-12/12992154_1232969343382740_1574014998_n.jpg?oh=08313cd22a435b328f117096c7566229&oe=5716141C");
+    background-repeat: no-repeat;
+    color: white;
+    width: 25vw;
+    height: 17vw;
+    border-radius: 25px;
+    position: fixed;
+    padding-left: 190px;
+    float: left;
+    left: 68vw;
+}
+
+
+#r12{
+    position: fixed;
+    float: left;
+    top: 225px;
+    left: 260px;
+    top: 12vw;
+    left: 1vw;
+
+}
+
+#picfashion{
+    position: fixed;
+    width: 120vw;
+    height: 37vw;
+
+}
 
 
 /*

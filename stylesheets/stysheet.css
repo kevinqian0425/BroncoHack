@@ -339,23 +339,34 @@ p {
   list-style-type: none;
 }
 body {
-  color:#FFF;
-  background:url('http://subtlepatterns.com/patterns/gplaypattern.png');
+  back-ground color:white;
 }
-h3 {
+/*h3 {
   font-size:0.9em;
   font-weight:900;
   color:#FFF;
-}
+}*/
 
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
 #content {
   width: 100%;
-  max-width:750px;
-  padding:15px;
+  max-width:800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 0 auto;
   text-align: center;
 }
-.recipe {
+.logo {
   background:#f1f1f1;
   max-width:300px;
   height:300px;
@@ -375,16 +386,16 @@ h3 {
   overflow:hidden;
   position:relative;
 }
-.image img{
+/*.image img{
   width:100%;
   transition: all 1s ease;
   margin-top:-70px;
-}
-.image:hover img{
+} */
+/*.image:hover img{
   transform: scale(1.2) rotate(-3deg);
-  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
-  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
-}
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome
+}*/
 .fa-heart-o:hover {
   animation-name: pulse;
   animation-duration: 0.5s;
@@ -436,16 +447,19 @@ h3 {
 
 .media {
   width:100%;
-  font-size:0.7em;
+  font-size:20px;
   color:#777;
-  padding:15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   text-align: center;
   vertical-align: middle;
-  line-height: 20px;
+  line-height:20px;
 }
 .media li {
   display:inline-block;
   padding:0 7px;
+  color:black;
+  
 }
 footer {
   font-size:0.7em;

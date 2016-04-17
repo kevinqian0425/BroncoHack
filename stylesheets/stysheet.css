@@ -172,7 +172,7 @@ p {
 #r7{
     position: fixed;
     float: top;
-    top: 20vw;
+    top: 10vw;
 }
 
 /*****************************************************/
@@ -180,40 +180,41 @@ p {
 /*****************************************************/
 
 #c4{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13014947_1232924560053885_2040984115_n.png?oh=b77c10bc88383e3481d10ae5d4213f72&oe=5716033A");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t34.0-12/13023425_1232965263383148_1103458752_n.jpg?oh=6348e7e0207d7aee9e5b3572801a2e02&oe=5714FB8F");
     background-repeat: no-repeat;
     color: white;
-    width: 31vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     border-radius: 25px;
     position: fixed;
-    padding-left: 95px;
+    padding-left: 170px;
     float: left;
-    left: 2.5vw;
+    left: 6.25vw;
 }
 
 #c5{
-    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtp1/v/t34.0-12/13020216_1232960230050318_1169718435_n.jpg?oh=fcbc93d48439c7c9c321c1464b94dfd6&oe=571617D0");
     background-repeat: no-repeat;
     color: white;
-    width: 30vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     position: relative;
-    padding-left: 87px;
+    padding-left: 170px;
     float: left;
-    left: 37.5vw;
+    left: 37.75vw;
     border-radius: 25px;
 }
 
 #c6{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlf1/v/t34.0-12/13045644_1232931526719855_922740816_n.png?oh=69d76d1df87cb810c6309d985eac839a&oe=5715F09D");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfp1/v/t34.0-12/13015068_1232968100049531_190411245_n.jpg?oh=99e7d32dc2104e9d79020366bed1f1ca&oe=5715F5F2");
     background-repeat: no-repeat;
+    font-size: 500%;
     color: white;
-    width: 30vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     border-radius: 25px;
     position: fixed;
-    padding-left: 95px;
+    padding-left: 190px;
     float: left;
     left: 68vw;
 }
@@ -221,51 +222,46 @@ p {
 #r10{
     position: fixed;
     float: top;
-    top: 50vw;
+    top: 30vw;
     padding-bottom: 500px;
 }
 
 #c10{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlf1/v/l/t34.0-12/13020468_1232957816717226_1527009884_n.jpg?oh=533a19cba224fcafd2be286c5b27bc66&oe=57160565");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xaf1/v/t34.0-12/12992927_1232968690049472_929053936_n.jpg?oh=f6097b241933a26b30522ff20c0e6ccb&oe=5715C404");
     background-repeat: no-repeat;
     color: white;
-    width: 31vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     border-radius: 25px;
     position: fixed;
     margin-bottom: 300px;
-    padding-left: 95px;
+    padding-left: 170px;
     float: left;
-    left: 2.5vw;
+    left: 6.25vw;
 }
 
 #c11{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t34.0-12/12992085_1232955730050768_363826390_n.jpg?oh=19e9b439b5526ef54c8f79723f1b9872&oe=5715CA4B");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlp1/v/t34.0-12/13022449_1232977296715278_1091430253_n.jpg?oh=3cc94182ffc17bd7d48d8d7f263d21d5&oe=5714E357");
     background-repeat: no-repeat;
     color: white;
-    width: 30vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     position: relative;
-    padding-left: 87px;
+    padding-left: 170px;
     float: left;
-    left: 37.5vw;
+    left: 37.75vw;
     border-radius: 25px;
-<<<<<<< HEAD
-
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 }
 
 #c12{
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t34.0-12/13020122_1232948370051504_1672214541_n.png?oh=19801389c24451d1d5f4fa268f749257&oe=57160788");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtf1/v/t34.0-12/12992154_1232969343382740_1574014998_n.jpg?oh=08313cd22a435b328f117096c7566229&oe=5716141C");
     background-repeat: no-repeat;
     color: white;
-    width: 30vw;
-    height: 25vw;
+    width: 25vw;
+    height: 17vw;
     border-radius: 25px;
     position: fixed;
-    padding-left: 95px;
+    padding-left: 190px;
     float: left;
     left: 68vw;
 }

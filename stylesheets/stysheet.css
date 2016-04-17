@@ -669,10 +669,11 @@ a:active {text-decoration:underline;}
 
 #pim{
     position:fixed;
-    top: 10vw;
+    top: 8.75vw;
     left: 5vw;
     height: 40vw;
     width: 40vw;
+    border-radius: 25px;
 }
 
 #name{
@@ -680,6 +681,68 @@ a:active {text-decoration:underline;}
     position:fixed;
     left: 63.75vw;
 }
+
+#name2{
+    color:black;
+    position:fixed;
+    font-size: 150%;
+    top: 9.25vw;
+    left:67.15vw;
+}
+
+#name3{
+    color:black;
+    position:fixed;
+    top: 15vw;
+    left:67.15vw;
+}
+
+#name4{
+    color:black;
+    position:fixed;
+    top: 20vw;
+    left:67.15vw;
+}
+
+#cc{
+    background-color:black;
+    top: 22vw;
+    width:41vw;
+    height: 0.5vw;
+    left: 53vw;
+    
+}
+
+#ccc{
+    background-color:black;
+    top: 41.75vw;
+    width:41vw;
+    height: 0.5vw;
+    left: 53vw;
+    
+}
+
+#name5{
+    color:black;
+    position:fixed;
+    top: 26.5vw;
+    left:52vw;
+}
+
+#name6{
+    color:black;
+    position:fixed;
+    top: 30vw;
+    left:52vw;
+}
+
+#name7{
+    color:black;
+    position:fixed;
+    top: 35vw;
+    left:52vw;
+}
+
 
 /*
 #r5{

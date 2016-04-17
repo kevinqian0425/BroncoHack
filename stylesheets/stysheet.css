@@ -1,6 +1,6 @@
-/**************/
+/******************************************************************/
 /* index.html */
-/**************/
+/******************************************************************/
 
 .title {
     display: block;
@@ -13,10 +13,13 @@
     border-radius: 0;
       }
 
-.jumbotron{
-    padding-top: 25%;
-    padding-top: 25%;
+.container-fluid .jumbotron{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 48%;
+    text-align: center;
 }
+
 
 ul {
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,11 +32,13 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+
 #jumbo1 {
   color:inherit;
   font-size:45px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 #jumbo2{
   color:inherit;
@@ -42,7 +47,7 @@ p {
 }
 
 #welcome {
-  margin-bottom: 100px;
+  margin-bottom: 35px;
   background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b5/02/ff/b502ffcb20f995d407b1cc6e20a79f41.jpg);
   background-position: 0% 25%;
   background-size: cover;
@@ -50,6 +55,12 @@ p {
   color: white;
   padding-top: 12%;
   padding-bottom: 12%;
+  border-radius: 10px;
+}
+
+#welcometext {
+  font-size:55px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #bottom {
@@ -64,13 +75,13 @@ p {
 }
 
 #food{
-  background-image:url(beef.jpg)
+  background-image:url('img/beef.jpg');
 }
 
 
-/*************/
+/******************************************************/
 /* food.html */
-/*************/
+/******************************************************/
 
 #r2{
     text-align: center;
@@ -149,9 +160,9 @@ p {
     top: 20vh;
 }
 
-/**********/
+/*****************************************************/
 /* Fasion */
-/**********/
+/*****************************************************/
 
 #c4{
     background-image: url("https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13014947_1232924560053885_2040984115_n.png?oh=b77c10bc88383e3481d10ae5d4213f72&oe=5716033A");
@@ -173,9 +184,21 @@ p {
     position: relative;
     padding-left: 87px;
     float: left;
+<<<<<<< HEAD
     left: 37.5vw;
+=======
+<<<<<<< HEAD
+    left: 37.5vw;
+<<<<<<< HEAD
+=======
+
+=======
+    left: 36.5vw;
+>>>>>>> origin/master
     border-radius: 25px;
    
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 #c6{
@@ -202,7 +225,7 @@ p {
 }
 
 #picfashion{
-    position: fixed; 
+    position: fixed;
     width: 120vw;
     height: 37vw;
 

@@ -358,6 +358,10 @@ h2{
    -1px 1px 0 #000,
    1px 1px 0 #000;
 }
+#inherit{
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 #content {
   width: 100%;
   max-width:800px;

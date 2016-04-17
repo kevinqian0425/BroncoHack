@@ -654,11 +654,18 @@ a:active {text-decoration:underline;}
 }
 
 #pim{
+    position:fixed;
     top: 10vw;
-    height: 35vw;
-    width: 35vw;
+    left: 5vw;
+    height: 40vw;
+    width: 40vw;
 }
 
+#name{
+    color:black;
+    position:fixed;
+    left: 63.75vw;
+}
 
 /*
 #r5{

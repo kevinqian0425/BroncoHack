@@ -1,5 +1,9 @@
 <?php
- 
+
+ParseClient::initialize( $app_id, $rest_key, $master_key );
+// Users of Parse Server will need to point ParseClient at their remote URL:
+ParseClient::setServerURL('https://my-parse-server.com/parse');
+
 if(isset($_POST['email'])) {
  
      

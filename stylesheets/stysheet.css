@@ -150,6 +150,7 @@ p {
 /**********/
 
 #c4{
+    color: white;
     width: 25vw;
     height: 38vw;
     background-color: skyblue;
@@ -161,16 +162,11 @@ p {
 }
 
 
-/*
-#accpic{
-    top: 65vh;
-    width: 5vw;
-    height: 5vw;
-    position: fixed;
-    float: left;
-    left: 37.5vw;
-}
-*/
+
+/*#accpic{
+    background-image: url("https://lh4.googleusercontent.com/-XU4m6zrhYjM/U7HTvHdCXOI/AAAAAAAAHa8/4vBrEMGSBFw/s500/Nancy%2520and%2520Carlos%2520workshop%2520Ecuador2.jpg");
+}*/
+
 
 
 #c5{
@@ -180,11 +176,13 @@ p {
     height: 25vw;
     position: fixed;
     float: left;
-    left: 37.5vw;
+    left: 35.5vw;
+    border-radius: 25px;
    
 }
 
 #c6{
+    color: white;
     width: 25vw;
     height: 38vw;
     background-color: rgb(160, 255, 195);

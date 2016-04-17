@@ -53,10 +53,6 @@ p {
 /* food.html */
 /*************/
 
-
-#r1{
-	text-align: center;
-}
 #r2{
 	text-align: center;
 }
@@ -92,7 +88,7 @@ p {
 #c3{
     width: 25vw;
     height: 38vw;
-    background-color: rgb(160, 255, 175);
+    background-color: rgb(160, 255, 195);
     border: 7.5px solid lightgreen;
     border-radius: 25px;
     position: fixed;

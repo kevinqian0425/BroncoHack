@@ -54,7 +54,7 @@ p {
 /*************/
 
 #r2{
-	text-align: center;
+    text-align: center;
 }
 
 #r3{
@@ -109,6 +109,71 @@ p {
 
 #pic{
     position: fixed;
+    width: 120vw;
+    height: 37vw;
+
+}
+
+
+
+
+
+#r6{
+    text-align: center;
+}
+
+#r7{
+    position: fixed;
+    float: top;
+    top: 56vh;
+}
+
+#c4{
+    width: 25vw;
+    height: 38vw;
+    background-color: skyblue;
+    border: 7.5px solid lightblue;
+    border-radius: 25px;
+    position: fixed;
+    float: left;
+    left: 5vw;
+}
+
+#c5{
+    width: 25vw;
+    height: 38vw;
+    background-color:  rgb(255,182,225);
+    border: 7.5px solid pink;
+    border-radius: 25px;
+    position: fixed;
+    float: left;
+    left: 37.5vw;
+}
+
+#c6{
+    width: 25vw;
+    height: 38vw;
+    background-color: rgb(160, 255, 195);
+    border: 7.5px solid lightgreen;
+    border-radius: 25px;
+    position: fixed;
+    float: left;
+    left: 70vw;
+}
+
+
+#r8{
+    position: fixed;
+    float: left;
+    top: 225px;
+    left: 260px;
+    top: 12vw;
+    left: 1vw;
+
+}
+
+#picfashion{
+    position: fixed; 
     width: 120vw;
     height: 37vw;
 

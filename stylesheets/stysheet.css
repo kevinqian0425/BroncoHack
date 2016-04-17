@@ -729,17 +729,38 @@ a:active {text-decoration:underline;}
     left:52vw;
 }
 
+#name5i{
+    color:black;
+    position:fixed;
+    top: 28vw;
+    left:52vw;
+}
+
 #name6{
     color:black;
     position:fixed;
-    top: 30vw;
+    top: 32.5vw;
+    left:52vw;
+}
+
+#name6i{
+    color:black;
+    position:fixed;
+    top: 34vw;
     left:52vw;
 }
 
 #name7{
     color:black;
     position:fixed;
-    top: 35vw;
+    top: 38.5vw;
+    left:52vw;
+}
+
+#name7i{
+    color:black;
+    position:fixed;
+    top: 40vw;
     left:52vw;
 }
 

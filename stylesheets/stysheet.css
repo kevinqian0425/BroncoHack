@@ -520,7 +520,7 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 170px;
     float: left;
-    left: 13vw;
+    left: 14vw;
     top: 10vw;  
 }
 
@@ -544,7 +544,7 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 160px;
     float: left;
-    left: 47vw;
+    left: 48vw;
     border-radius: 25px;
     top: 10vw;
 }
@@ -596,7 +596,7 @@ a:active {text-decoration:underline;}
     margin-bottom: 300px;
     padding-left: 170px;
     float: left;
-    left: 12vw;
+    left: 14vw;
     top: 35vw;
 }
 
@@ -616,17 +616,17 @@ a:active {text-decoration:underline;}
     position: fixed;
     padding-left: 170px;
     float: left;
-    left: 40vw;
-    top: 43vw;
+    left: 47vw;
+    top: 35vw;
     border-radius: 25px;
 }
 
 #im5{
    position:fixed;
-    top: 28vw;
+    top: 34vw;
     left: 43vw;
     width: 15vw;
-    height: 15vw;
+    height: 30vw;
     border-radius: 25px;
 }
 
@@ -647,7 +647,7 @@ a:active {text-decoration:underline;}
     top: 28vw;
     left: 73.75vw;
     width: 15vw;
-    height: 15vw;
+    height: vw;
     border-radius: 25px;
 }
 
